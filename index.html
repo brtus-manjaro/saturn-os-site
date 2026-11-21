@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100c18">
+  <meta name="description" content="Saturn OS is an independent Linux distribution built with Linux From Scratch. Follow development of the first live image.">
+  <title>Saturn OS — Linux From Scratch</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a class="brand" href="#top"><span class="planet" aria-hidden="true"></span>Saturn OS</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="status"><span aria-hidden="true"></span>0.1 in development</p>
+        <h1 id="hero-title">Linux.<br><em>From scratch.</em></h1>
+        <p class="intro">Saturn OS is an independent Linux distribution built with Linux From Scratch. The base system boots, and work on the live desktop is underway.</p>
+        <a class="button" href="#download">Live image status</a>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/saturn-os.webp" alt="Saturn OS logo with a purple ringed planet and a diagonal X across the O" width="1774" height="887" fetchpriority="high">
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div>
+        <h2 id="about-title">Inside the current build</h2>
+        <p>Saturn OS starts from a systemd-based Linux From Scratch build. The base system has been booted in QEMU, where the live desktop can be tested as it comes together.</p>
+      </div>
+      <dl class="specs">
+        <div><dt>Version</dt><dd>0.1</dd></div>
+        <div><dt>Base system</dt><dd>LFS 13.1-systemd</dd></div>
+        <div><dt>Kernel</dt><dd>7.1.8-saturn</dd></div>
+      </dl>
+    </section>
+
+    <section id="download" class="download" aria-labelledby="download-title">
+      <div>
+        <h2 id="download-title">Download Saturn OS</h2>
+        <p id="release-note">The first live image is still in development. The download will appear here when it’s ready.</p>
+      </div>
+      <!-- Replace this status with a link to the ISO when a public download is available. -->
+      <p class="status" aria-describedby="release-note"><span aria-hidden="true"></span>ISO pending</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <a class="brand" href="#top"><span class="planet" aria-hidden="true"></span>Saturn OS</a>
+    <a href="https://www.linuxfromscratch.org/">Linux From Scratch</a>
+  </footer>
+</body>
+</html>
